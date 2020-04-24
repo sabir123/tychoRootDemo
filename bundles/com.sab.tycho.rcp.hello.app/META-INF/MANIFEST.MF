@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: App
+Bundle-SymbolicName: com.sab.tycho.rcp.hello.app;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: SAB
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.ui,
+ org.apache.felix.scr,
+ org.eclipse.equinox.event,
+ org.eclipse.equinox.p2.core;bundle-version="2.6.300",
+ org.eclipse.equinox.p2.engine;bundle-version="2.6.600",
+ org.eclipse.equinox.p2.operations;bundle-version="2.5.700",
+ org.eclipse.equinox.p2.metadata.repository;bundle-version="1.3.400"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: javax.inject
+Automatic-Module-Name: com.sab.tycho.rcp.hello.app

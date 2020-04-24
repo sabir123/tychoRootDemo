@@ -1,0 +1,20 @@
+<project>
+ <modelVersion>4.0.0</modelVersion>
+ <groupId>com.sab.tycho</groupId>
+ <artifactId>root</artifactId>
+ <version>1.0.0-SNAPSHOT</version>
+ <packaging>pom</packaging>
+ <parent>
+   <groupId>com.sab.tycho</groupId>
+   <artifactId>releng</artifactId>
+   <version>1.0.0-SNAPSHOT</version>
+  <relativePath>./releng</relativePath>
+ </parent>
+
+ <modules>
+ <module>bundles/com.sab.tycho.rcp.hello.app</module>
+ <module>features/com.sab.tycho.rcp.hello.app.feature</module>
+ <module>releng-updatesite</module>
+ <module>releng/com.sab.tycho.rcp.hello.app.product</module>
+ </modules>
+</project>
